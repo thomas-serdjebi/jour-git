@@ -1,14 +1,57 @@
 table {
     border-collapse: collapse;
+    width:60%;
+    margin: 0 auto;
+    background-color: lightgoldenrodyellow;
+    box-shadow: 20px;
+    border-color: 10px darkblue;
+    
+
+
 
 }
 
-    th, td {
-    border: 1px solid black;
-}
+
 
 caption {
-    caption-side: bottom;
+    font-family: monospace;
+    font-size:50px;
+    font-weight:500;
+    margin: 0 auto;
+    width: 60%;
+    caption-side: top;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+th {
+    text-align: center;
+    font-size: large;
+    font-weight:400;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color:lightyellow;
+    height:30px;
+    font-size:30px;
+
+}
+
+
+
+    th, td {
+    border: 2px solid darkblue;
+    height: 20px;
+}
+
+
+
+.stt {
+    text-align: center;
+    font-size: large;
+    font-weight:200;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color:moccasin;
+    height:30px;
+
 }
 
 /* A finir */
